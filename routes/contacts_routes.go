@@ -1,7 +1,7 @@
 package routes
 
 import (
-	"github.com/chejo343/go_contacts/controllers"
+	"github.com/baemestrada-source/go_contacts/controllers"
 	"github.com/gorilla/mux"
 )
 

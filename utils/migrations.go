@@ -3,7 +3,7 @@ package utils
 import (
 	"fmt"
 
-	"github.com/chejo343/go_contacts/models"
+	"github.com/baemestrada-source/go_contacts/models"
 )
 
 // MigrateDB migra la base de datos

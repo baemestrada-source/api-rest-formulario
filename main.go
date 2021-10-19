@@ -4,8 +4,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/chejo343/go_contacts/routes"
-	"github.com/chejo343/go_contacts/utils"
+	"github.com/baemestrada-source/go_contacts/routes"
+	"github.com/baemestrada-source/go_contacts/utils"
 	"github.com/gorilla/mux"
 )
 

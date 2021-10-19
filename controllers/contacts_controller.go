@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/chejo343/go_contacts/models"
-	"github.com/chejo343/go_contacts/utils"
+	"github.com/baemestrada-source/go_contacts/models"
+	"github.com/baemestrada-source/go_contacts/utils"
 	"github.com/gorilla/mux"
 )
 
