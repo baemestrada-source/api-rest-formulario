@@ -6,12 +6,15 @@ import (
 	"github.com/jinzhu/gorm"
 
 	// mysql
-	_ "github.com/jinzhu/gorm/dialects/mysql"
+	_ "github.com/go-sql-driver/mysql"
 )
 
 // GetConnection obtiene una conexión a la base de datos
 func GetConnection() *gorm.DB {
-	db, err := gorm.Open("mysql", "root:pass123@/dbcontacts?charset=utf8&parseTime=True&loc=Local")
+
+	dsn := "user:pass@tcp(127.0.0.1:3306)/dbname?charset=utf8mb4&parseTime=True&loc=Local"
+
+	db, err := gorm.Open("mysql", dsn)
 	if err != nil {
 		log.Fatal(err)
 	}
